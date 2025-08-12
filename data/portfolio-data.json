@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "title": "Srinath Shrestha | Full Stack Developer",
+    "description": "Portfolio website showcasing full stack development work and skills"
+  },
+  "personal": {
+    "name": "Srinath Shrestha",
+    "title": "Full Stack Developer",
+    "location": "Greater Noida, India",
+    "avatar": "/IMG_0018.jpg",
+    "email": "srinathshrestha9890@gmail.com",
+    "phone": "+91-8249423347",
+    "workingHours": "Monday - Friday, 9am - 6pm IST",
+    "availableForWork": true,
+    "badges": ["Full Stack", "React/Next.js", "Web Development"],
+    "social": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/srinathshrestha",
+        "icon": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/srinath-shrestha-584171204/",
+        "icon": "Linkedin"
+      }
+    ]
+  },
+  "about": {
+    "bio": "I'm a passionate full stack developer specializing in modern web technologies like React, Next.js, and Node.js. Currently pursuing B.Tech in Computer Science Engineering at Bennett University with hands-on experience in building collaborative platforms and AI-powered applications.",
+    "focus": [
+      "Building responsive and interactive web applications",
+      "Developing real-time collaborative platforms",
+      "Creating AI-powered solutions with modern tech stacks"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Fluent",
+        "level": 90,
+        "flag": "🇺🇸"
+      },
+      {
+        "name": "Odia",
+        "proficiency": "Native",
+        "level": 100,
+        "flag": "🇮🇳"
+      },
+      {
+        "name": "Hindi",
+        "proficiency": "Native",
+        "level": 100,
+        "flag": "🇮🇳"
+      }
+    ],
+    "interests": [
+      "Web Design and Development",
+      "Making memes",
+      "Reddit debates"
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Credentials",
+      "href": "#credentials"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer Intern",
+      "company": "LinkVerse",
+      "period": "May - July 2025",
+      "description": "Designed and developed multiple internal tools streamlining company workflows and reducing manual processes. Built automated internal workload management system improving team productivity and task allocation efficiency.",
+      "achievements": [
+        "Implemented RESTful APIs and database optimization strategies, reducing query response time significantly",
+        "Built automated internal workload management system improving team productivity",
+        "Designed and developed multiple internal tools streamlining company workflows"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
+      "title": "Frontend Developer Intern",
+      "company": "SkyForge System Solutions",
+      "period": "January - May 2025",
+      "description": "Developed Heliosensium, an AI-powered parenting assistant providing personalized advice based on child development stages. Built responsive React.js interface with intuitive UX/UI design, resulting in high user satisfaction rate.",
+      "achievements": [
+        "Integrated machine learning models for personalized content recommendation and implemented secure user data handling",
+        "Collaborated with cross-functional team to deliver MVP within 4-month timeline, exceeding performance benchmarks",
+        "Built responsive React.js interface with intuitive UX/UI design"
+      ],
+      "technologies": [
+        "React.js",
+        "JavaScript",
+        "UX/UI Design",
+        "Machine Learning Integration"
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "LinkVerse AI, Ahmedabad",
+      "period": "March - May 2025",
+      "description": "Created an ATS Compiler Service for AI resume generation site. Worked on backend architecture and API development for automated resume processing and optimization systems.",
+      "achievements": [
+        "Developed ATS Compiler Service for automated resume processing",
+        "Built backend architecture for AI-powered resume generation",
+        "Implemented API endpoints for resume optimization algorithms"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "API Development",
+        "Backend Architecture"
+      ]
+    }
+  ],
+  "credentials": {
+    "certifications": [
+      {
+        "id": 1,
+        "slug": "ultimate-react-course-2025",
+        "name": "The Ultimate React Course 2025: React, NextJs, Redux and More",
+        "issuer": "Udemy",
+        "instructor": "Jonas Schmedtmann",
+        "date": "2024",
+        "completionDate": "December 2024",
+        "logo": "/placeholder-logo.png",
+        "description": [
+          "Comprehensive course covering React fundamentals, advanced patterns, and modern React ecosystem including Next.js and Redux.",
+          "Learned component architecture, state management, hooks, context API, and performance optimization techniques.",
+          "Built multiple real-world projects including e-commerce applications, dashboards, and full-stack applications."
+        ],
+        "skills": [
+          "React.js",
+          "Next.js",
+          "Redux",
+          "JavaScript",
+          "TypeScript",
+          "Modern React Patterns",
+          "State Management"
+        ],
+        "courseUrl": "https://www.udemy.com/course/the-ultimate-react-course/",
+        "certificateUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-14b98fb8-83be-4bfe-a5d5-92bf8b824c59.jpg",
+        "duration": "68 hours",
+        "projects": [
+          "Pizza ordering app with React Router",
+          "WorldWise travel tracking app",
+          "The Wild Oasis hotel management system",
+          "Fast React Pizza co. ordering system"
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "nextjs-15-react-complete-guide",
+        "name": "NextJs 15 and React - The Complete Guide",
+        "issuer": "Udemy",
+        "instructor": "Maximilian Schwarzmüller",
+        "date": "2024",
+        "completionDate": "November 2024",
+        "logo": "/placeholder-logo.png",
+        "description": [
+          "Deep dive into Next.js 15 features including App Router, Server Components, and advanced rendering strategies.",
+          "Mastered full-stack development with Next.js, including API routes, database integration, and deployment.",
+          "Learned about SEO optimization, performance improvements, and modern web development best practices."
+        ],
+        "skills": [
+          "Next.js",
+          "React.js",
+          "Server Components",
+          "API Routes",
+          "SEO",
+          "Performance Optimization"
+        ],
+        "courseUrl": "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
+        "certificateUrl": "",
+        "duration": "40 hours",
+        "projects": [
+          "Blog application with SSG and ISR",
+          "E-commerce platform with authentication",
+          "Dashboard with real-time data"
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "tailwind-css-practical-bootcamp",
+        "name": "Tailwind CSS – The Practical Bootcamp in 2025",
+        "issuer": "Udemy",
+        "instructor": "Brad Traversy",
+        "date": "2024",
+        "completionDate": "October 2024",
+        "logo": "/placeholder-logo.png",
+        "description": [
+          "Comprehensive training in utility-first CSS framework for rapid UI development.",
+          "Mastered responsive design, custom components, and advanced Tailwind features.",
+          "Built modern, responsive layouts and learned best practices for maintainable CSS."
+        ],
+        "skills": [
+          "Tailwind CSS",
+          "CSS",
+          "Responsive Design",
+          "UI Development",
+          "Design Systems"
+        ],
+        "courseUrl": "https://www.udemy.com/course/tailwind-css-course/",
+        "certificateUrl": "",
+        "duration": "25 hours",
+        "projects": [
+          "Landing page with modern design",
+          "Dashboard interface",
+          "Mobile-first responsive website"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
+        "institution": "Bennett University, Greater Noida",
+        "year": "2022-2026",
+        "cgpa": "8.32",
+        "logo": "/Bennett_University.webp"
+      }
+    ],
+    "skills": [
+      "Full Stack Development",
+      "React/Next.js",
+      "Node.js",
+      "Database Design",
+      "API Development",
+      "Real-time Applications",
+      "Cloud Technologies",
+      "Version Control"
+    ]
+  },
+  "technicalSkills": {
+    "languages": ["C++", "Python", "JavaScript", "TypeScript", "HTML", "CSS"],
+    "libraries": ["React.js", "Python Libraries"],
+    "webDevTech": [
+      "Node.js",
+      "Git",
+      "VSCode",
+      "Vercel",
+      "Next.js",
+      "React.js",
+      "Cursor",
+      "Claude Code",
+      "Docker",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "CI/CD"
+    ],
+    "cloudDatabases": ["Neon DB", "PostgreSQL", "MongoDB", "AWS", "Supabase"],
+    "softSkills": [
+      "Self-learning",
+      "Presentation",
+      "Adaptability",
+      "Improvisation",
+      "Kind",
+      "Empathic",
+      "Helping",
+      "Polite",
+      "Friendly",
+      "Cracking Jokes"
+    ]
+  }
+}

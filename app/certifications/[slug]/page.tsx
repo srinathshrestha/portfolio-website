@@ -56,7 +56,20 @@ export default function CertificationPage({ params }: CertificationPageProps) {
           <AnimatedSection animation="fade-up" className="lg:col-span-3">
             <Card className="bg-zinc-900/70 border-zinc-800 backdrop-blur-sm overflow-hidden">
               <div className="relative h-48 sm:h-64 md:h-80 w-full bg-gradient-to-br from-cyan-900/20 to-blue-900/20">
-                {certification.certificateUrl && (
+                {certification.certificateUrl &&
+                certification.certificateUrl.endsWith(".pdf") ? (
+                  <div className="absolute inset-4 rounded-lg overflow-hidden border border-zinc-700/50 bg-white flex items-center justify-center">
+                    <div className="text-center text-zinc-800 p-4">
+                      <Award className="w-16 h-16 mx-auto mb-4 text-cyan-600" />
+                      <h3 className="text-lg font-bold mb-2">
+                        PDF Certificate
+                      </h3>
+                      <p className="text-sm mb-4">
+                        Click "Verify Certificate" below to view the PDF
+                      </p>
+                    </div>
+                  </div>
+                ) : certification.certificateUrl ? (
                   <div className="absolute inset-4 rounded-lg overflow-hidden border border-zinc-700/50">
                     <Image
                       src={certification.certificateUrl}
@@ -64,6 +77,13 @@ export default function CertificationPage({ params }: CertificationPageProps) {
                       fill
                       className="object-contain bg-white p-2"
                     />
+                  </div>
+                ) : (
+                  <div className="absolute inset-4 rounded-lg overflow-hidden border border-zinc-700/50 bg-zinc-800/50 flex items-center justify-center">
+                    <div className="text-center text-zinc-400 p-4">
+                      <Award className="w-16 h-16 mx-auto mb-4" />
+                      <p className="text-sm">Certificate coming soon</p>
+                    </div>
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
@@ -154,7 +174,9 @@ export default function CertificationPage({ params }: CertificationPageProps) {
                             rel="noopener noreferrer"
                           >
                             <Award className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
-                            Verify Certificate
+                            {certification.certificateUrl.endsWith(".pdf")
+                              ? "View PDF Certificate"
+                              : "Verify Certificate"}
                           </a>
                         </Button>
                       )}

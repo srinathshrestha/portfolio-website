@@ -84,12 +84,11 @@
   "experience": [
     {
       "title": "Full Stack Developer Intern",
-      "company": "LinkVerse",
+      "company": "LinkVerse AI, Ahmedabad",
       "period": "May - July 2025",
       "description": "Designed and developed multiple internal tools streamlining company workflows and reducing manual processes. Built automated internal workload management system improving team productivity and task allocation efficiency.",
       "achievements": [
-        "Implemented RESTful APIs and database optimization strategies, reducing query response time significantly",
-        "Built automated internal workload management system improving team productivity",
+        "Built certificate generator for the company's interns",
         "Designed and developed multiple internal tools streamlining company workflows"
       ],
       "technologies": [
@@ -107,16 +106,11 @@
       "period": "January - May 2025",
       "description": "Developed Heliosensium, an AI-powered parenting assistant providing personalized advice based on child development stages. Built responsive React.js interface with intuitive UX/UI design, resulting in high user satisfaction rate.",
       "achievements": [
-        "Integrated machine learning models for personalized content recommendation and implemented secure user data handling",
+        "Integrated chatGPT API for personalized content recommendation and implemented secure user data handling",
         "Collaborated with cross-functional team to deliver MVP within 4-month timeline, exceeding performance benchmarks",
         "Built responsive React.js interface with intuitive UX/UI design"
       ],
-      "technologies": [
-        "React.js",
-        "JavaScript",
-        "UX/UI Design",
-        "Machine Learning Integration"
-      ]
+      "technologies": ["React.js", "JavaScript", "UX/UI Design", "Gen AI"]
     },
     {
       "title": "Backend Developer",
@@ -146,7 +140,7 @@
         "instructor": "Jonas Schmedtmann",
         "date": "2024",
         "completionDate": "December 2024",
-        "logo": "/placeholder-logo.png",
+        "logo": "/udemy-react-course.png",
         "description": [
           "Comprehensive course covering React fundamentals, advanced patterns, and modern React ecosystem including Next.js and Redux.",
           "Learned component architecture, state management, hooks, context API, and performance optimization techniques.",
@@ -162,7 +156,7 @@
           "State Management"
         ],
         "courseUrl": "https://www.udemy.com/course/the-ultimate-react-course/",
-        "certificateUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-14b98fb8-83be-4bfe-a5d5-92bf8b824c59.jpg",
+        "certificateUrl": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-14b98fb8-83be-4bfe-a5d5-92bf8b824c59.pdf",
         "duration": "68 hours",
         "projects": [
           "Pizza ordering app with React Router",
@@ -179,7 +173,7 @@
         "instructor": "Maximilian Schwarzmüller",
         "date": "2024",
         "completionDate": "November 2024",
-        "logo": "/placeholder-logo.png",
+        "logo": "/udemy-next-course.png",
         "description": [
           "Deep dive into Next.js 15 features including App Router, Server Components, and advanced rendering strategies.",
           "Mastered full-stack development with Next.js, including API routes, database integration, and deployment.",
@@ -210,7 +204,7 @@
         "instructor": "Brad Traversy",
         "date": "2024",
         "completionDate": "October 2024",
-        "logo": "/placeholder-logo.png",
+        "logo": "/udemy-tailwind-course.png",
         "description": [
           "Comprehensive training in utility-first CSS framework for rapid UI development.",
           "Mastered responsive design, custom components, and advanced Tailwind features.",
@@ -223,7 +217,7 @@
           "UI Development",
           "Design Systems"
         ],
-        "courseUrl": "https://www.udemy.com/course/tailwind-css-course/",
+        "courseUrl": "https://www.udemy.com/course/tailwind-css-the-practical-bootcamp/",
         "certificateUrl": "",
         "duration": "25 hours",
         "projects": [

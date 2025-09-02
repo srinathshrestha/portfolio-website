@@ -4,6 +4,7 @@ import { ArrowLeft, ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SkillTag } from "@/components/skill-tag";
+import { ProjectGallery } from "@/components/project-gallery";
 import { getProjectBySlug } from "@/lib/data";
 import { notFound } from "next/navigation";
 import { EnhancedScrollIndicator } from "@/components/enhanced-scroll-indicator";
@@ -152,29 +153,10 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               <AnimatedSection animation="fade-up" delay={200}>
                 <Card className="bg-zinc-900/70 border-zinc-800 backdrop-blur-sm">
                   <CardContent className="p-4 sm:p-6">
-                    <h2 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
-                      Project Gallery
-                    </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
-                      {project.gallery.map((image, index) => (
-                        <AnimatedSection
-                          key={index}
-                          animation="zoom-in"
-                          delay={100 * (index + 1)}
-                        >
-                          <div className="relative h-40 sm:h-48 rounded-lg overflow-hidden border border-zinc-800">
-                            <Image
-                              src={image.url || "/placeholder.svg"}
-                              alt={
-                                image.caption || `Gallery image ${index + 1}`
-                              }
-                              fill
-                              className="object-cover"
-                            />
-                          </div>
-                        </AnimatedSection>
-                      ))}
-                    </div>
+                    <ProjectGallery
+                      images={project.gallery}
+                      title="Project Gallery"
+                    />
                   </CardContent>
                 </Card>
               </AnimatedSection>

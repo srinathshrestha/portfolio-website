@@ -67,6 +67,7 @@ export default function Home() {
                           description={experience.description}
                           achievements={experience.achievements}
                           technologies={experience.technologies}
+                          logo={experience.logo}
                         />
                       </AnimatedSection>
                     ))}

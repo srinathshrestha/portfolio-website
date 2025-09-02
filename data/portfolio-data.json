@@ -7,7 +7,7 @@
     "name": "Srinath Shrestha",
     "title": "Full Stack Developer",
     "location": "Greater Noida, India",
-    "avatar": "/IMG_0018.jpg",
+    "avatar": "/IMG_0587.JPG",
     "email": "srinathshrestha9890@gmail.com",
     "phone": "+91-8249423347",
     "workingHours": "Monday - Friday, 9am - 6pm IST",
@@ -86,6 +86,7 @@
       "title": "Full Stack Developer Intern",
       "company": "LinkVerse AI, Ahmedabad",
       "period": "May - July 2025",
+      "logo": "/logo-LinkVerse.png",
       "description": "Designed and developed multiple internal tools streamlining company workflows and reducing manual processes. Built automated internal workload management system improving team productivity and task allocation efficiency.",
       "achievements": [
         "Built certificate generator for the company's interns",
@@ -104,6 +105,7 @@
       "title": "Frontend Developer Intern",
       "company": "SkyForge System Solutions",
       "period": "January - May 2025",
+      "logo": "/logo-skyforge.png",
       "description": "Developed Heliosensium, an AI-powered parenting assistant providing personalized advice based on child development stages. Built responsive React.js interface with intuitive UX/UI design, resulting in high user satisfaction rate.",
       "achievements": [
         "Integrated chatGPT API for personalized content recommendation and implemented secure user data handling",
@@ -116,6 +118,7 @@
       "title": "Backend Developer",
       "company": "LinkVerse AI, Ahmedabad",
       "period": "March - May 2025",
+      "logo": "/logo-LinkVerse.png",
       "description": "Created an ATS Compiler Service for AI resume generation site. Worked on backend architecture and API development for automated resume processing and optimization systems.",
       "achievements": [
         "Developed ATS Compiler Service for automated resume processing",

@@ -36,7 +36,8 @@ const projects: Project[] = [
     slug: "bona-collaborative-media",
     title: "Bona - Collaborative Media Platform",
     category: "Full Stack Web Application",
-    shortDescription: "A full-stack web application combining real-time chat with cloud-based media storage.",
+    shortDescription:
+      "A full-stack web application combining real-time chat with cloud-based media storage.",
     description: [
       "Bona is a comprehensive collaborative media platform designed for teams to upload, view, and discuss media files in real-time. The platform combines file management with communication tools to create a seamless collaborative workspace.",
       "Built with modern web technologies, the application features a robust architecture that supports real-time collaboration through WebSocket connections and secure cloud storage using AWS S3 for scalable file management.",
@@ -44,24 +45,37 @@ const projects: Project[] = [
     ],
     features: [
       "Real-time collaborative workspace for media file management",
-      "Version tracking system for project evolution timeline visualization", 
+      "Version tracking system for project evolution timeline visualization",
       "AWS S3 integration for scalable file storage with secure access controls",
       "Real-time chat and discussion features for team collaboration",
       "Responsive design with smooth animations using Framer Motion",
       "Secure user authentication and access management",
     ],
-    technologies: ["Next.js", "shadcn/ui", "Framer Motion", "Neon DB", "WebSocket", "AWS S3", "Vercel"],
-    coverImage: "/placeholder.jpg",
-    thumbnailImage: "/placeholder.jpg",
+    technologies: [
+      "Next.js",
+      "shadcn/ui",
+      "Framer Motion",
+      "Neon DB",
+      "WebSocket",
+      "AWS S3",
+      "Vercel",
+    ],
+    coverImage: "/bona/bona-1.png",
+    thumbnailImage: "/bona/bona-1.png",
     gallery: [
-      { url: "/placeholder.jpg", caption: "Main Dashboard with Media Gallery" },
-      { url: "/placeholder.jpg", caption: "Real-time Chat Interface" },
-      { url: "/placeholder.jpg", caption: "Version Tracking Timeline" },
-      { url: "/placeholder.jpg", caption: "File Upload and Management" },
+      { url: "/bona/bona-1.png", caption: "Main Dashboard with Media Gallery" },
+      { url: "/bona/bona-3.png", caption: "Version Tracking Timeline" },
+      { url: "/bona/bona-4.png", caption: "File Upload and Management" },
+      { url: "/bona/bona-5.png", caption: "User Profile and Settings" },
+      { url: "/bona/bona-6.png", caption: "Project Collaboration View" },
+      { url: "/bona/bona-7.png", caption: "Media File Organization" },
+      { url: "/bona/bona-8.png", caption: "Team Communication Hub" },
+      { url: "/bona/bona-9.png", caption: "Advanced File Management" },
     ],
     timeline: "4 months (2024)",
     role: "Full Stack Developer",
-    githubUrl: "https://github.com/srinathshrestha9890",
+    liveUrl: "https://bona-five.vercel.app/",
+    githubUrl: "https://github.com/srinathshrestha/Bona",
     relatedProjects: [
       {
         slug: "cartmate-shopping-app",
@@ -82,7 +96,8 @@ const projects: Project[] = [
     slug: "cartmate-shopping-app",
     title: "CartMate - Collaborative Shopping List App",
     category: "Collaborative Application",
-    shortDescription: "Real-time collaborative shopping application with secure multi-user editing.",
+    shortDescription:
+      "Real-time collaborative shopping application with secure multi-user editing.",
     description: [
       "CartMate is a sophisticated real-time collaborative shopping list application that enables multiple users to create, edit, and manage shopping lists together in real-time. The platform addresses the common problem of coordinating shopping tasks among family members, roommates, or team members.",
       "The application features a robust authentication system ensuring data privacy and secure access, while WebSocket technology enables seamless real-time collaboration. Users can see changes instantly as others add or modify items on shared lists.",
@@ -96,7 +111,14 @@ const projects: Project[] = [
       "Responsive design with intuitive user interface",
       "Real-time notifications for list updates and changes",
     ],
-    technologies: ["Next.js", "shadcn/ui", "Framer Motion", "Neon DB", "WebSocket", "Vercel"],
+    technologies: [
+      "Next.js",
+      "shadcn/ui",
+      "Framer Motion",
+      "Neon DB",
+      "WebSocket",
+      "Vercel",
+    ],
     coverImage: "/placeholder.jpg",
     thumbnailImage: "/placeholder.jpg",
     gallery: [
@@ -113,7 +135,7 @@ const projects: Project[] = [
         slug: "bona-collaborative-media",
         title: "Bona - Collaborative Media Platform",
         category: "Full Stack Web Application",
-        image: "/placeholder.jpg",
+        image: "/bona/bona-1.png",
       },
       {
         slug: "entwined-ai-companion",
@@ -128,7 +150,8 @@ const projects: Project[] = [
     slug: "entwined-ai-companion",
     title: "Entwined - AI Companion Application",
     category: "AI Application",
-    shortDescription: "Advanced AI-powered companion app with psychological analysis and persistent memory.",
+    shortDescription:
+      "Advanced AI-powered companion app with psychological analysis and persistent memory.",
     description: [
       "Entwined is a cutting-edge AI companion application that goes beyond simple chatbots by incorporating psychological profiling and persistent memory systems. The application analyzes user behavior patterns to create a personalized and evolving interaction experience.",
       "Using the Grok API, the application implements a large-scale memory architecture that maintains context across conversations, allowing for meaningful, long-term relationships between users and their AI companions. This creates a more natural and engaging user experience.",
@@ -142,7 +165,14 @@ const projects: Project[] = [
       "Persistent conversation history and context maintenance",
       "Advanced natural language processing and understanding",
     ],
-    technologies: ["Next.js", "Grok API", "shadcn/ui", "Framer Motion", "Neon DB", "Vercel"],
+    technologies: [
+      "Next.js",
+      "Grok API",
+      "shadcn/ui",
+      "Framer Motion",
+      "Neon DB",
+      "Vercel",
+    ],
     coverImage: "/placeholder.jpg",
     thumbnailImage: "/placeholder.jpg",
     gallery: [
@@ -159,7 +189,7 @@ const projects: Project[] = [
         slug: "bona-collaborative-media",
         title: "Bona - Collaborative Media Platform",
         category: "Full Stack Web Application",
-        image: "/placeholder.jpg",
+        image: "/bona/bona-1.png",
       },
       {
         slug: "cartmate-shopping-app",
@@ -169,7 +199,7 @@ const projects: Project[] = [
       },
     ],
   },
-]
+];
 
 export { projects }
 
